@@ -31,6 +31,7 @@ namespace EVENT_TEST
                 {
                     count++;
                     NumberChanged(count);
+					count--;// 将其复原
                 }
             }
         }
